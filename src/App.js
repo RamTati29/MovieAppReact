@@ -27,12 +27,12 @@ const App = () =>{
     }
 
     useEffect(() =>{
-        searchMovies('Spiderman');
+        searchMovies('Avengers');
     }, []);
 
     return(
         <div className="app">
-            <h1>AllNoviesHub</h1>
+            <h1>MoviesSite</h1>
 
             <div className="search">
                 <input placeholder="Search for movies" value={searchTerm} onChange={(e)=>setSearchTerm(e.target.value)} type="text"/>
